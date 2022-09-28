@@ -7,7 +7,7 @@ use did_ion::DIDION;
 use did_tz::DIDTz;
 use did_web::DIDWeb;
 use did_webkey::DIDWebKey;
-use ssi::did::{DIDMethod, DIDMethods};
+use ssi::did::DIDMethods;
 use std::env::VarError;
 
 lazy_static! {

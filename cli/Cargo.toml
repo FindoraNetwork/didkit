@@ -4,7 +4,6 @@ version = "0.2.0"
 authors = ["Spruce Systems, Inc."]
 edition = "2018"
 description = "Command-line interface for Verifiable Credentials and Decentralized Identifiers."
-license = "Apache-2.0"
 license-file = "../LICENSE"
 keywords = ["ssi", "did", "vc", "cli"]
 categories = ["command-line-utilities"]

@@ -113,9 +113,9 @@ struct Message {
 
 #[derive(Debug, Clone)]
 struct SSHKey {
-    pub comment: String,
-    pub key_blob: Vec<u8>,
-    pub key_type: String,
+    _comment: String,
+    _key_blob: Vec<u8>,
+    _key_type: String,
 }
 
 async fn read_msg(ssh_agent_sock: &mut tokio::net::UnixStream) -> Result<Message, ReadError> {
